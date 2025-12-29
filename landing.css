@@ -507,7 +507,8 @@ nav {
 
 /* Footer */
 .footer {
-  padding: 70px 80px;
+  padding: 60px 80px;
+  background-color: #F8F8F8;
 }
 
 /* Footer Columns (Grid is OK) */
@@ -524,27 +525,29 @@ nav {
 
 /* Text */
 .footer-column h3 {
+  color: #212121;
+  font-weight: 600;
   font-size: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .footer-column h4 {
-  font-size: 16px;
-  margin: 25px 0 10px;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 10px;
+  color: #212121;
 }
 
 .footer-column ul {
   list-style: none;
 }
 
-.footer-column li {
-  font-size: 15px;
+.footer-column ul li {
+  font-size: 15.0006px;
+  font-weight: 400;
+  color: #212121;
   margin-bottom: 10px;
   cursor: pointer;
-}
-
-.footer-column li:hover {
-  text-decoration: underline;
 }
 
 /* Responsive */
