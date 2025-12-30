@@ -4,7 +4,6 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
-  font-family: 'Helvetica Neue', sans-serif;
   overflow-x: hidden;
 }
 .hamburger {
@@ -510,45 +509,32 @@ nav {
   padding: 60px 80px;
   background-color: #F8F8F8;
 }
-
-/* Footer Columns (Grid is OK) */
 .footer-container {
   display: grid;
   grid-template-columns: 1.5fr 2fr 2fr 2fr;
   gap: 60px;
 }
-
-/* Logo */
 .footer-logo img {
-  width: 120px;
+  width: 90px;
 }
-
-/* Text */
 .footer-column h3 {
   color: #212121;
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 10px;
 }
-
 .footer-column h4 {
   font-size: 22px;
   font-weight: 600;
   padding-top: 10px;
   color: #212121;
 }
-
-.footer-column ul {
+.footer-column ul li{
   list-style: none;
-}
-
-.footer-column ul li h1 {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 17.0006px;
   color: #212121;
-  margin-bottom: 10px;
+  font-weight: 500;
 }
-
 /* Responsive */
 @media (max-width: 1024px) {
   .footer-container {
