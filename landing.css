@@ -542,12 +542,11 @@ nav {
   list-style: none;
 }
 
-.footer-column ul li {
-  font-size: 15.0006px;
+.footer-column ul li h1 {
+  font-size: 15px;
   font-weight: 400;
   color: #212121;
   margin-bottom: 10px;
-  cursor: pointer;
 }
 
 /* Responsive */
