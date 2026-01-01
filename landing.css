@@ -601,6 +601,11 @@ nav {
   background-color: #F8F8F8;
   border-bottom: 1px solid #ddd;
 }
+@media (max-width: 600px) {
+  .top-bar {
+    padding: 1rem 2rem;
+  }
+}
 .left {
   display: flex;
   align-items: center;
