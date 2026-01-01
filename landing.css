@@ -323,7 +323,12 @@ nav {
   background: rgba(152, 151, 154, 0.35);
   border-color: rgba(152, 151, 154, 0.6);
 }
-
+@media (max-width: 768px) {
+  .sct-1 h1 {
+    font-size: 2.5em;
+    width: 90vw;
+  }
+}
 /* Section colors for testing */
 .two {
   background-color: black;
@@ -376,7 +381,12 @@ nav {
   background: rgba(152, 151, 154, 0.35);
   border-color: rgba(152, 151, 154, 0.6);
 }
-
+@media (max-width: 768px) {
+  .sct-3 h1 {
+    font-size: 2.5em;
+    width: 90vw;
+  }
+}
 /* section4 */
 .sct-4 {
   position: absolute;
@@ -424,7 +434,12 @@ nav {
   background: rgba(152, 151, 154, 0.35);
   border-color: rgba(152, 151, 154, 0.6);
 }
-
+@media (max-width: 768px) {
+  .sct-4 h1 {
+    font-size: 2.5em;
+    width: 90vw;
+  }
+}
 /* section5 */
 .sct-5 {
   position: absolute;
@@ -472,12 +487,12 @@ nav {
   background: rgba(152, 151, 154, 0.35);
   border-color: rgba(152, 151, 154, 0.6);
 }
-
- 
-
-
-
-
+@media (max-width: 768px) {
+  .sct-5 h1 {
+    font-size: 2.5em;
+    width: 90vw;
+  }
+}
 .footer-section {
   border-top: 1px solid #e5e5e5;
 }
@@ -551,15 +566,10 @@ nav {
   .footer {
     padding: 20px;
   }
+  .social-media {
+    padding-left: 20px;
+  }
 }
-
-
-
-
-
-
-
-/* === TOP BAR === */
 .hero-section {
   position: relative;
   background: url('./images/sun.jpg') center/cover no-repeat;
@@ -640,3 +650,4 @@ nav {
   color: #ffd700;
   border-color: #ffd700;
 }
+
