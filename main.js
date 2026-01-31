@@ -5,12 +5,14 @@ const megaMenu = document.getElementById('megaMenu');
 
 hamburger.addEventListener('click', () => {
   megaMenu.classList.toggle('active');
+  hamburger.classList.toggle('active');
 });
 
 // Optional: close when clicking outside
 document.addEventListener('click', (e) => {
   if (!e.target.closest('.hamb-drop')) {
     megaMenu.classList.remove('active');
+    hamburger.classList.remove('active');
   }
 });
 
@@ -93,3 +95,6 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('resize', updateButtons);
   updateButtons();
 });
+
+
+

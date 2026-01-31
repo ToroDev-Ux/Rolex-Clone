@@ -255,7 +255,132 @@ nav {
   /* pink color when clicked */
 }
 
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 15px 20px; /* Reduces the 100px padding so content isn't squeezed */
+  }
+  .left h1 {
+    display: none;
+  }
+  .wholedrop {
+    top: 70px; 
+    padding-left: 20px;
+    padding-top: 30px;
+    overflow-y: auto; 
+  }
 
+  .mega-menu {
+    flex-direction: column; 
+  }
+  .menu-left ul {
+    margin-bottom: 20px;
+  }
+  
+  .menu-left ul li {
+    font-size: 18px; 
+    padding: 8px 0;
+  }
+  .trend-slider-wrapper {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .trend-slider-wrapper h1 {
+    padding-left: 0 !important;
+    padding-top: 20px !important;
+    font-size: 24px !important;
+  }
+  .trend-card img {
+    width: 260px; 
+    height: 180px;
+  }
+
+  .trend-slider {
+    padding: 10px 0;
+  }
+
+  .right {
+    gap: 1.5em;
+  }
+  
+  .trend-btn {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 15px 20px; 
+  }
+  .wholedrop {
+    top: 60px; 
+    padding: 20px;
+    height: calc(100vh - 60px); 
+    overflow-y: auto; 
+    background: #0F4E31; 
+  }
+  .mega-menu {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .menu-left ul {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+  }
+
+  .menu-left ul li {
+    font-size: 20px;
+    padding: 15px 0;
+    list-style: none;
+  }
+
+  
+  .list-3, .list-4, .list-5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .trend-slider-wrapper {
+    padding-left: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .trend-slider-wrapper h1 {
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    font-size: 24px !important;
+    margin-bottom: 15px;
+  }
+
+  .trend-slider {
+    padding: 10px 0;
+    gap: 15px;
+    display: flex;
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+  }
+
+  .trend-card {
+    scroll-snap-align: start;
+    min-width: 240px; 
+  }
+
+  .trend-card img {
+    width: 100%;
+    height: 160px;
+    border-radius: 4px;
+  }
+  .trend-btn {
+    display: none !important;
+  }
+}
+.hamburger.active span:first-child {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active span:last-child {
+  transform: translateY(-9px) rotate(-45deg);
+}
 
 
 .section {
@@ -604,6 +729,7 @@ nav {
 @media (max-width: 600px) {
   .top-bar {
     padding: 1rem 2rem;
+    display: none;
   }
 }
 .left {
